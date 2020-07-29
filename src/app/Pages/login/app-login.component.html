@@ -1,0 +1,56 @@
+
+
+    <div class="container-fluid corpo-login" style="position: fixed; height: 100%;">
+        <div class="row">
+        
+            <div class="col-sm-6 d-flex justify-content-center centro-esquerdo">
+                <div class="text-center">
+                    <h1 class="display-4">
+                        <strong class="text-white text-center">
+                            Seja Bem Vindo! 
+                        </strong>
+                        <br/>
+                        <strong class="text-white text-center">
+                            A Plataforma On-Line Classifica<b class="tage">e</b> 
+                        </strong>
+                    </h1>
+                    <h2 class="text-white">
+                        É uma maneira simples e objetiva que fará com que seus serviços ou produtos sejam divulgados e colocados em evidência.
+                    </h2>
+                    
+                </div>
+            </div>
+
+            <div class="col-sm-6 d-flex justify-content-center centro-direito">
+                
+                <div class="col-sm-8">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <form>
+                            <h2 class="text-center">Vamos que vamos!</h2>
+                            <div class="form-group">
+                                <!-- <label for="exampleInputEmail1">Insira seu E-mail</label> -->
+                                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Insira seu E-mail">
+                                <small id="emailHelp" class="form-text text-muted">* Nunca compartilharemos sua conta com mais ninguém.</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="senha" placeholder="Insira sua Senha">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-lg text-center col-md-12 text-white" (click)="goCadastro()">Acessar Conta</button>
+                            </div>
+                            <br/>
+                          
+                            <div class="form-group text-right">
+                                <button type="submit" class="btn btn-pink text-white" (click)="goVoltar()">Voltar</button> | 
+                                <button type="submit" class="btn btn-secondary text-white" (click)="goRecuperarAcesso()">Recuperar Senha</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+

@@ -1,0 +1,48 @@
+
+.wrapper-content {
+    width: 98vw;
+    height: 30vh;
+    z-index: -9999;
+    top: -60px; 
+}       
+
+.cor-secao {
+//     background-color: #F3F2F1 !important;
+    background-color: rgb(255, 254, 254) !important;
+ }
+
+.cor-texto {
+    color: #FEA21A !important;
+}
+
+.border-bottom-h {
+    border-bottom: 2px solid #DC1864;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+.titulo {
+    font-size: 20pt;
+    color: #303146;
+    text-align: center;
+    
+}
+
+.btn-link {
+    background-color: #DC1864;
+    border-radius: 40px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .nopadding {
+        padding: 0 !important;
+    }
+    .mauto {
+        margin: auto;
+    }
+    .card {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+}

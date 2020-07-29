@@ -1,0 +1,162 @@
+body {
+    color: white;
+}
+
+.img-body {    
+    // background-color: black;
+    background-image: url('../../../assets/imagens/shopping-center-318602_1920.jpg');
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.back {
+    background-color: #563D7C;
+    color: white;
+    height: 55px;
+    line-height: 45px;
+    font-size: 24px;
+    font-family: 'Varta', sans-serif;
+}
+
+.menu {
+    color: white;
+    font-family: 'Varta', sans-serif;
+}
+
+.menu-active {
+    font-family: 'Varta', sans-serif;
+}
+
+.name-company {
+    font-size: 4.2rem;
+    font-weight: 700;
+    padding: 2.0rem 0;
+    color: white;
+    font-family: 'Varta', sans-serif;
+}
+
+.desc-company  {
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 2.0rem 0;
+    font-family: 'Varta', sans-serif;
+}
+
+.phone-company {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 2.0rem 0;
+    font-family: 'Varta', sans-serif;
+}
+
+.end-company{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 2.0rem 0;
+    font-family: 'Varta', sans-serif;
+}
+
+.title-contact {
+    font-size: 18px;
+    color: white;    
+    height: 40px;
+    line-height: 40px;
+    background-color: #563D7C;    
+    border-radius: 4px 4px 0 0;
+    font-family: 'Varta', sans-serif;
+}
+
+.contact-form {
+    border-radius: 5px;
+    height: auto;
+    background-color: white;
+    float: right;
+    font-family: 'Varta', sans-serif;
+}
+
+.voltar {
+    color: white;
+    font-family: 'Varta', sans-serif;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 3rem;
+    font-family: 'Varta', sans-serif;
+}
+
+
+.description-all {
+    font-size: 1rem;
+    font-family: 'Varta', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+hr {
+    border: 1px dashed #2125293d;
+}
+
+.infos-title {
+    font-family: 'Varta', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 200;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.info-rede {
+    font-family: 'Varta', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.info-payment {
+    font-family: 'Varta', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.tag-header {
+    font-size: 30px;
+}
+
+.tage-header {
+    font-size: 30px;        
+    color: chocolate;
+}
+
+// MOBILE
+
+@media screen and (max-width: 800px) {
+    .logo-client-mobile {
+        width: 50% !important;
+    }
+    .all-center {
+        text-align: center;
+    }
+    .all-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .infos-title {
+        font-size: 12px;
+        font-family: 'Varta', sans-serif;
+    }
+    .info-rede {
+        font-size: 12px;
+    }
+    .infos-all {
+        font-size: 12px;
+    }
+}

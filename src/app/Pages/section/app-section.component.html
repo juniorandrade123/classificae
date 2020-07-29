@@ -1,0 +1,34 @@
+<app-content></app-content>
+
+<br /> <br />
+<section class="cor-secao">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <h2 class="f-300 f-26 border-bottom-h"><strong class="titulo">Empresas</strong><span class="cor-texto">
+            Encontradas</span></h2>
+        <!-- <h1 class="text-black">Empresas<b class="cor-texto"> Encontradas</b></h1> -->
+      </div>
+
+      <div *ngFor="let item of listCompanys"
+        class="col-sm-3 text-center row d-flex mauto justify-content-end nopadding">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img src="/assets/imagens/2303069.jpg" class="card-img-top" alt="empresa">
+          <div class="card-body">
+            <h4 class="card-title">{{item.name}}</h4>
+            <p class="card-text text-left">{{item.description}}</p>
+            <li class="btn btn-link col-12 text-center text-white" (click)="goEmpresa(item)">Visualizar</li>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div><br /></div>
+  <div><br /></div>
+
+</section>
+
+<app-footer></app-footer>

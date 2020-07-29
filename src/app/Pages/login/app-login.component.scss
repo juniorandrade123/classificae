@@ -1,0 +1,35 @@
+.wrapper-content {
+    width: 100vw;
+    height: 50vh;
+    z-index: -9999;
+    top: -100px; 
+    
+}
+
+.tage {
+    color: chocolate;
+}
+
+.corpo-login {
+    background-color: #563D7C !important;
+}
+
+.btn-pink {
+    background: #DC1864;
+}
+
+.centro-direito {
+    // width:100px;
+    // height:100px;
+    position:absolute;
+    top:20%;
+    left:50%;
+}
+
+.centro-esquerdo {
+    // width:100px;
+    // height:100px;
+    position:absolute;
+    top:30%;
+    right:50%;
+}
